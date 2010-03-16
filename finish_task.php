@@ -1,15 +1,13 @@
 <?php
 if(isset($_GET['id']))
 {
-  if(isset($_GET['undo']) && $_GET['undo'] == "true") $finished = 0;
-  else $finished = 1;
+  require 'loader.php';
   
-  include('db.php');
-
-  $db = new myday_database();
-
-  $db->send_query("UPDATE tasks SET `finished` = '".$finished."' WHERE `id` = ".mysql_real_escape_string($_GET['id']).";");
+  $this_task = new myday_task($_GET['id']);
   
-  header("Location: http://myday.bryanculver.com/");
+  if(isset($_GET['undo']) && $_GET['undo'] == "true") $this_task->unfinish();
+  else $this_task->finish();
+  
+  header("Location: ".$loader->url."/");
 }
 ?>
