@@ -45,14 +45,19 @@ class myday_task {
     
     $this->id = $task['id'];
     $this->category = $task['category'];
-    $this->task = $task['task'];
+    $this->task = htmlentities(stripslashes($task['task']));
     $this->finished = (bool) $task['finished'];
   }
   
   function create($category, $task)
   {
     $db = new myday_database();
-
+    
+    if(empty($category) || empty($task))
+    {
+      return FALSE;
+    }
+    
     $result = $db->send_query("INSERT INTO tasks (
       `category`,
       `task`

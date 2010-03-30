@@ -55,6 +55,11 @@ class myday_category
   function create($name)
   {
     $db = new myday_database();
+    
+    if(empty($name))
+    {
+      return FALSE;
+    }
 
     $result = $db->send_query("INSERT INTO categories (
       `name`
