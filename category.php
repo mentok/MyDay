@@ -73,6 +73,7 @@ class myday_category
     }
     else
     {
+      $this->init($result);
       return TRUE;
     }
   }

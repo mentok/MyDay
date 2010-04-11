@@ -7,6 +7,6 @@ if(isset($_POST['new_category']))
   
   $new_category->create($_POST['new_category']);
   
-  header("Location: ".$loader->url."/");
+  header("Location: ".$loader->url."/#c".$new_category->id());
 }
 ?>

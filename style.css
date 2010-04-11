@@ -1,0 +1,65 @@
+body
+{
+  width: 900px;
+  margin: 0;
+  padding: 0;
+}
+div#site
+{
+  width: 900px;
+  margin: 0 auto 0;
+  font: 14px Arial, sans-serif;
+}
+div.category
+{
+  width: 300px;
+  float: left;
+  margin-bottom: 20px;
+}
+div.category ul
+{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+div.category ul li
+{
+  padding: 6px;
+  background-color:#eee;
+  margin: 5px 10px 5px 0;
+  word-wrap: break-word;
+}
+div.category ul li.finished
+{
+  background-color:#f9f9f9;
+  color:#999;
+}
+div.category ul li input.new_task, div.category input.new_category
+{
+  font-size:1.1em;
+  width: 205px;
+  padding: 5px;
+}
+div.category ul li input.submit_task
+{
+  margin-left: 12px;
+}
+div.category ul li a
+{
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+div.category ul li a img
+{
+  vertical-align: middle;
+  margin-bottom: 1px;
+  float: right;
+  border: none;
+}
+div.category b a img
+{
+  vertical-align: bottom;
+  border: none;
+}

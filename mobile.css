@@ -1,0 +1,24 @@
+body
+{
+  width: 98%;
+  margin: 0 2% 0;
+}
+div#site
+{
+  width: 98%;
+  margin: 0 auto 0;
+  font: 18px Arial, sans-serif;
+}
+div.category
+{
+  width: 100%;
+}
+div#site div.category ul li input.new_task, div#site div.category input.new_category
+{
+  width: 80%;
+}
+div#site input.submit_task, div#site input.submit_category
+{
+  margin-left: 0;
+  font-size: 1.1em;
+}

@@ -7,6 +7,6 @@ if(isset($_POST['cat_id']) && isset($_POST['new_task']))
   
   $new_task->create($_POST['cat_id'], $_POST['new_task']);
   
-  header("Location: ".$loader->url."/");
+  header("Location: ".$loader->url."/#c".$_POST['cat_id']);
 }
 ?>

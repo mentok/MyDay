@@ -19,9 +19,9 @@ $loader->load();
 
   foreach($loader->categories as $category)
   { ?>
-    <div class="category">
+    <div class="category" id="c<?php echo $category->id(); ?>">
     <form action="new_task.php" method="post" accept-charset="utf-8">
-      <b><?php echo $category->name(); ?><?php if($category->id() != "1") { ?> <a href="delete_category.php?id=<?php echo $category->id(); ?>"><img src="cross.png" alt="Delete Category" /><?php } ?></a></b>
+      <b><?php echo $category->name(); ?><?php if($category->id() != "1") { ?> <a href="delete_category.php?id=<?php echo $category->id(); ?>"><img src="cross.png" alt="Delete Category" /></a><?php } ?></b>
       <ul>
 <?php
 

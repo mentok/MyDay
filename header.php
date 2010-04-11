@@ -10,99 +10,39 @@ require('loader.php');
   <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, post-check=0, pre-check=0" />
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
+  <meta name="viewport" content="width=device-width" />
 	<title>MyDay</title>
-
+  <link rel="stylesheet" href="style.css" type="text/css" media="screen" title="Default" charset="utf-8"/>
+  <?php
+  $agent = $_SERVER['HTTP_USER_AGENT'];
+  if (eregi("BlackBerry", $agent) || eregi("iPhone", $agent) || eregi("iPod", $agent) || eregi("Android", $agent))
+  { ?>
+  <link rel="stylesheet" href="mobile.css" type="text/css" media="screen" title="Default" charset="utf-8"/>
+  <?php } ?>
+  <?php
+  $agent = $_SERVER['HTTP_USER_AGENT'];
+  if (eregi("iPhone", $agent) || eregi("iPod", $agent))
+  { ?>
   <style type="text/css" media="screen">
-    body
+    div#site div.category ul li input.new_task, div#site div.category input.new_category
     {
-      margin: 0;
-      padding: 0;
-    }
-    div#site
-    {
-      width: 900px;
-      margin: 0 auto 0;
-      font: 14px Arial, sans-serif;
-    }
-    div#site.blackberry
-    {
-      width: 400px;
-      margin: 0 auto 0;
-      font: 18px Arial, sans-serif;
-    }
-    div.category
-    {
-      width: 300px;
-      float: left;
-      margin-bottom: 20px;
-    }
-    div#site.blackberry div.category
-    {
-      width: 400px;
-    }
-    div.category ul
-    {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-    div.category ul li
-    {
-      padding: 6px;
-      background-color:#eee;
-      margin: 5px 10px 5px 0;
-      word-wrap: break-word;
-    }
-    div.category ul li.finished
-    {
-      background-color:#f9f9f9;
-      color:#999;
-    }
-    div.category ul li input.new_task, div.category input.new_category
-    {
-      font-size:1.1em;
-      width: 205px;
-      padding: 5px;
-    }
-    div#site.blackberry div.category ul li input.new_task, div#site.blackberry div.category input.new_category
-    {
-      width: 305px;
-    }
-    div.category ul li input.submit_task
-    {
-      margin-left: 12px;
-    }
-    div#site.blackberry input.submit_task, div#site.blackberry input.submit_category
-    {
-      margin-left: 0;
-      font-size: 1.1em;
-    }
-    div.category ul li a
-    {
-      font-weight: bold;
-      color: #000;
-      text-decoration: none;
-      font-size: 1.2em;
-    }
-    div.category ul li a img
-    {
-      vertical-align: middle;
-      margin-bottom: 1px;
-      float: right;
-      border: none;
-    }
-    div.category b a img
-    {
-      vertical-align: bottom;
-      border: none;
+      width: 62%;
+      margin-right: 10px
     }
   </style>
+  <?php } ?>
+  <?php
+  $agent = $_SERVER['HTTP_USER_AGENT'];
+  if (eregi("Android", $agent))
+  { ?>
+  <style type="text/css" media="screen">
+    div#site div.category ul li input.new_task, div#site div.category input.new_category
+    {
+      width: 70%;
+    }
+  </style>
+  <?php } ?>
 </head>
 
 <body>
-<div id="site" class="<?php
-$agent = $_SERVER['HTTP_USER_AGENT'];
-if (eregi("BlackBerry", $agent)) {
-echo "blackberry";
-}
-?>">
+<div id="site">
