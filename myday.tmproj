@@ -8,9 +8,33 @@
 	<array>
 		<dict>
 			<key>filename</key>
+			<string>mobile.css</string>
+			<key>lastUsed</key>
+			<date>2010-04-22T02:45:47Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>style.css</string>
+			<key>lastUsed</key>
+			<date>2010-04-22T03:24:43Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>myday.js</string>
+			<key>lastUsed</key>
+			<date>2010-04-22T03:17:07Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>moo.js</string>
+			<key>lastUsed</key>
+			<date>2010-04-22T02:54:59Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
 			<string>header.php</string>
 			<key>lastUsed</key>
-			<date>2010-04-11T17:05:47Z</date>
+			<date>2010-04-22T02:56:45Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -22,13 +46,13 @@
 			<key>filename</key>
 			<string>category.php</string>
 			<key>lastUsed</key>
-			<date>2010-04-11T14:25:08Z</date>
+			<date>2010-04-22T03:17:08Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>task.php</string>
 			<key>lastUsed</key>
-			<date>2010-04-11T14:07:55Z</date>
+			<date>2010-04-22T03:12:53Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -52,7 +76,7 @@
 			<key>filename</key>
 			<string>index.php</string>
 			<key>lastUsed</key>
-			<date>2010-04-11T17:05:47Z</date>
+			<date>2010-04-22T03:24:43Z</date>
 			<key>selected</key>
 			<true/>
 		</dict>
@@ -60,68 +84,250 @@
 			<key>filename</key>
 			<string>database.php</string>
 			<key>lastUsed</key>
-			<date>2010-04-11T14:25:19Z</date>
+			<date>2010-04-22T03:11:53Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>finish_task.php</string>
 			<key>lastUsed</key>
-			<date>2010-04-11T14:07:49Z</date>
+			<date>2010-04-22T03:14:01Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>new_category.php</string>
 			<key>lastUsed</key>
-			<date>2010-03-16T08:09:18Z</date>
+			<date>2010-04-22T03:17:10Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>new_task.php</string>
 			<key>lastUsed</key>
-			<date>2010-03-16T08:09:14Z</date>
+			<date>2010-04-11T17:49:32Z</date>
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
 	<integer>200</integer>
 	<key>metaData</key>
 	<dict>
-		<key>header.php</key>
+		<key>category.php</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>39</integer>
+				<integer>27</integer>
 				<key>line</key>
-				<integer>12</integer>
+				<integer>75</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
+		</dict>
+		<key>database.php</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>59</integer>
+				<key>line</key>
+				<integer>44</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>39</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>75</integer>
+				<key>line</key>
+				<integer>44</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>59</integer>
+				<key>line</key>
+				<integer>44</integer>
+			</dict>
+		</dict>
+		<key>finish_task.php</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>28</integer>
+				<key>line</key>
+				<integer>8</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>header.php</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>21</integer>
+				<key>line</key>
+				<integer>14</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>18</integer>
 		</dict>
 		<key>index.php</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>192</integer>
+				<integer>100</integer>
 				<key>line</key>
-				<integer>23</integer>
+				<integer>33</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>18</integer>
+		</dict>
+		<key>mobile.css</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>15</integer>
+				<key>line</key>
+				<integer>22</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>16</integer>
+				<key>line</key>
+				<integer>22</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>15</integer>
+				<key>line</key>
+				<integer>22</integer>
+			</dict>
+		</dict>
+		<key>moo.js</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>myday.js</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>26</integer>
+				<key>line</key>
+				<integer>6</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>new_category.php</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>39</integer>
+				<key>line</key>
+				<integer>9</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>new_task.php</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>39</integer>
+				<key>line</key>
+				<integer>9</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>style.css</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>19</integer>
+				<key>line</key>
+				<integer>52</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>31</integer>
+		</dict>
+		<key>task.php</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>4</integer>
+				<key>line</key>
+				<integer>55</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>23</integer>
+		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
 		<string>header.php</string>
+		<string>myday.js</string>
+		<string>moo.js</string>
+		<string>style.css</string>
+		<string>mobile.css</string>
 		<string>index.php</string>
+		<string>new_task.php</string>
+		<string>new_category.php</string>
+		<string>category.php</string>
+		<string>database.php</string>
+		<string>task.php</string>
+		<string>finish_task.php</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<false/>
 	<key>windowFrame</key>
-	<string>{{311, 113}, {1280, 774}}</string>
+	<string>{{33, 132}, {1071, 626}}</string>
 </dict>
 </plist>

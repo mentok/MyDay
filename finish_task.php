@@ -5,7 +5,7 @@ if(isset($_GET['id']))
   
   $this_task = new myday_task($_GET['id']);
   
-  if(isset($_GET['undo']) && $_GET['undo'] == "true") $this_task->unfinish();
+  if($this_task->finished()) $this_task->unfinish();
   else $this_task->finish();
   
   header("Location: ".$loader->url."/");

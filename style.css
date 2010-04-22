@@ -1,8 +1,7 @@
 body
 {
-  width: 900px;
-  margin: 0;
-  padding: 0;
+  margin: 0 auto 0;
+  padding: 0 10px 0;
 }
 div#site
 {
@@ -51,7 +50,7 @@ div.category ul li a
   text-decoration: none;
   font-size: 1.2em;
 }
-div.category ul li a img
+div.category ul li img
 {
   vertical-align: middle;
   margin-bottom: 1px;
