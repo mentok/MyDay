@@ -52,5 +52,5 @@ $loader->load();
   }
   ?>
   <div style="clear: both;"></div>
-  <p><a href="prune.php">prune</a></p>
+  <p><a href="prune.php">remove all completed</a></p>
 <?php require 'footer.php'; ?>
