@@ -31,7 +31,7 @@ $loader->load();
     { 
       ?>
       
-      <li <?php if($task->finished()) echo "class=\"finished\""; ?> id="t<?php echo $task->id(); ?>"><?php echo $task->task(); ?><a href="finish_task.php?id=<?php echo $task->id(); ?>" onClick="toggleDone(<?php echo $task->id(); ?>); return false;"><img src="tick<?php if($task->finished()) echo "_finished"; ?>.png" alt="Check Finished"/></a></li>
+      <li <?php if($task->finished()) echo "class=\"finished\""; ?> id="t<?php echo $task->id(); ?>"><?php echo $task->task(); ?><a href="finish_task.php?id=<?php echo $task->id(); ?>" onClick="toggleDone(<?php echo $task->id(); ?>); return false;"><img id="ti<?php echo $task->id(); ?>" src="tick<?php if($task->finished()) echo "_finished"; ?>.png" alt="Check Finished"/></a></li>
     <?php } ?>
     
     <li><input type="hidden" name="cat_id" value="<?php echo $category->id(); ?>"/><input type="text" name="new_task" value="" class="new_task"/><input type="submit" name="submit_task" value="Add" class="submit_task"/></li>
